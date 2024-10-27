@@ -1,0 +1,116 @@
+/* Add your new style for api-key-sub-settings */
+.api-key-sub-settings {
+  width: 100%;
+}
+
+
+/* Custom styles for the admin table */
+.form-table.params-mailerlite {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.form-table.params-mailerlite th {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+  text-align: left;
+}
+
+.form-table.params-mailerlite td {
+  padding: 10px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.form-table.params-mailerlite tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.form-table.params-mailerlite tr:hover {
+  background-color: #f1f1f1;
+}
+
+.form-table.params-mailerlite select,
+.form-table.params-mailerlite input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.form-table.params-mailerlite input[type="text"] {
+  height: 36px;
+}
+
+.form-table.params-mailerlite select {
+  height: 36px;
+  background-color: #fff;
+}
+
+.form-table.params-mailerlite button.add-more-conditions {
+  margin-top: 10px;
+  background-color: #0073aa;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form-table.params-mailerlite button.add-more-conditions:hover {
+  background-color: #005177;
+}
+.plugin-documentation {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.plugin-documentation .section-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.documentation-section {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.documentation-section .section-title {
+  color: #0073aa;
+  border-bottom: 2px solid #0073aa;
+  padding-bottom: 5px;
+}
+
+.documentation-section ul {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.documentation-section ul li {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.documentation-section ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.plugin-documentation a {
+  color: #0073aa;
+  text-decoration: none;
+}
+
+.plugin-documentation a:hover {
+  text-decoration: underline;
+}
